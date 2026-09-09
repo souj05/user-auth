@@ -29,30 +29,3 @@ cd frontend
 npm install
 npm start              # runs on http://localhost:3000
 ```
-
-## Project Structure
-```
-auth-app/
-├── backend/
-│   ├── src/
-│   │   ├── controllers/auth.controller.js
-│   │   ├── middleware/auth.middleware.js
-│   │   ├── models/User.model.js
-│   │   ├── routes/auth.routes.js
-│   │   └── server.js
-│   ├── .env.example
-│   └── package.json
-└── frontend/
-    ├── src/
-    │   ├── components/ProtectedRoute.tsx
-    │   ├── context/AuthContext.tsx
-    │   ├── pages/Login.tsx
-    │   ├── pages/Register.tsx
-    │   ├── pages/Dashboard.tsx
-    │   ├── types/index.ts
-    │   ├── App.tsx
-    │   └── index.tsx
-    └── package.json
-```
-
-Built by Sowjanya Tadimarri
